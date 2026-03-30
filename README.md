@@ -1,60 +1,47 @@
-# Fleet Operations Analytics
+# Daily Fuel Analysis Project
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
+## 📌 Project Overview
 
-[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)](https://www.tableau.com/)
+This project provides a comprehensive analysis of daily fuel consumption and variance. It aims to monitor fuel usage patterns, identify suspicious discrepancies, and visualize key performance indicators (KPIs) to optimize logistics operations.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/Xsfoo/Fleet_Operations_Analytics)
+## 🛠️ Technologies Used
 
-## Overview
+- **SQL**: Data extraction and calculating daily consumption, variances, and identifying anomalies.
 
-This project provides an **end-to-end analysis of fleet operations** using Python and Tableau.  
+- **Python (Jupyter Notebook)**: Advanced data cleaning and statistical analysis.
 
-It covers:
+- **Tableau**: Interactive dashboarding for visual insights.
 
-- Monitoring fuel consumption and efficiency
+## 📂 Project Structure
 
-- Evaluating driver performance
+- **/Scripts**: Contains SQL queries (`daily_consumption.sql`, `avg_variance.sql`, `suspicious_days.sql`, etc.)
 
-- Tracking vehicle maintenance
+- **/Notebooks**: Contains the Python analysis file (`analysis-py.ipynb`).
 
-- Visualizing operational data in interactive dashboards
+- **/Dashboards**: Includes the Tableau workbook (`Daily_Fuel_Analysis.twbx`) and a preview image.
 
----
+## 📊 Key Insights
 
-## Project Structure
+- Tracking daily fuel consumption trends.
 
-```text
+- Identifying days with suspicious fuel variance for further investigation.
 
-Fleet_Operations_Analytics/
+- Comparing actual vs. average fuel usage.
 
-├─ Dashboard/
+## 🖼️ Dashboard Preview
 
-│   └─ Fleet_Operations_Dashboard.twbx
+![Difference Dashboard](Dashboards/Difference_Dashboard.png)
 
-├─ Python/
+## 🚀 How to Use
 
-│   └─ fleet_analysis.ipynb
+1. Clone the repository.
 
-├─ data/
+2. Run the SQL scripts in your database environment to prepare the data.
 
-│   └─ fleet_data.csv
+3. Use the Jupyter Notebook for deep-dive analysis.
 
-├─ images/
-
-│   ├─ dashboard_screenshot.png
-
-│   └─ fuel_chart.png
-
-└─ README.md
+4. Open the Tableau file to interact with the visualizations.
  
-
-## 📊 Features
-- Fuel Consumption per Truck and Driver
-- Distance and Trips Overview
-- Maintenance Alerts
-- Interactive Filters and Tooltips
-- Benchmark comparison for fuel efficiency
 
 
 ## 📫 Contact
